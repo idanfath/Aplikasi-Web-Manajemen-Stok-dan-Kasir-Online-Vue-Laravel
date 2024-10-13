@@ -1,0 +1,14 @@
+.nav-link {
+    @apply relative text-gray-600 hover:text-black transition-colors duration-500;
+}
+
+.nav-link::after {
+    content: '';
+    @apply absolute left-0 bottom-[-1px] w-full h-[1.5px] bg-neutral-700 origin-left scale-x-0;
+    transition: transform 0.5s cubic-bezier(.7, 0, .25, 1);
+    cursor: default;
+}
+
+.nav-link:hover::after {
+    @apply scale-x-100;
+}

@@ -1,0 +1,25 @@
+/* Add your styles here */
+.animated,
+.parent-animated>*,
+.animated-all * {
+    transition: all 0.3s cubic-bezier(.7, 0, .25, 1) !important;
+}
+
+.my-bezier {
+    transition-timing-function: cubic-bezier(.7, 0, .25, 1) !important;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.fade-enter-to,
+.fade-leave-from {
+    opacity: 1;
+}

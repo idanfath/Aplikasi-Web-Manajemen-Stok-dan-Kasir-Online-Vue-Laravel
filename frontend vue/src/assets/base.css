@@ -1,0 +1,28 @@
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
+
+
+body {
+    @apply text-neutral-800;
+    min-height: 100vh;
+    /* color: var(--color-text); */
+    background: var(--color-background);
+    transition:
+        color 0.5s,
+        background-color 0.5s;
+    line-height: 1.6;
+    font-family:
+        SF Pro Display,
+        sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,27 @@
+@import './utils/utility.css';
+@import './utils/component.css';
+@import './utils/animation.css';
+@import './base.css';
+
+.page {
+    min-height: 100vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-vertical {
+    display: flex;
+    align-items: center;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+.input-label {
+    @apply font-medium
+}
