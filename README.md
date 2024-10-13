@@ -85,9 +85,8 @@ npm run serve
 
 ```
 fullstack-project/
-├── backend/        # Laravel backend
-├── frontend/       # Vue.js frontend
-├── .env.example    # Environment variables example
+├── backend laravel/        # Laravel backend
+├── frontend vue/       # Vue.js frontend
 ├── README.md       # Project documentation
 └── ...
 ```
